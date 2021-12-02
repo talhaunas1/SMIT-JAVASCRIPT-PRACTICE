@@ -17,7 +17,7 @@
 {
 margin-top: 2%;
 padding: 12px;
-width: 10%;
+/* width: 10%; */
 background-color: rgb(216, 57, 29);
 border:none;
 border-radius:20px ;
@@ -53,3 +53,26 @@ button:hover
 .input1 {
     margin-bottom: 20px;
 } 
+
+@media all and (max-width:700px)
+{
+    
+    .input1 input
+    {
+        width: 50%;
+        margin-top: 15px;
+        margin-bottom: 5px;
+    }
+}
+@media all and (min-width:898px)
+{
+    
+    body
+    {
+        font-size: 18px;
+    }
+    .input1 input
+    {
+        /* width: 100%; */
+    }
+}

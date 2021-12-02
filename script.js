@@ -122,3 +122,32 @@ function divide()
     //     document.getElementById("result5").innerHTML=a+" is not divisible";
     // }
 }
+
+function checkno()
+{
+    var a=parseInt(document.getElementById("n10").value);
+    // var b=parseInt(document.getElementById("n11").value);
+
+
+    if (a%2==0)
+    {
+        document.getElementById("result6").innerHTML=a+" is even";
+    }
+    else
+    document.getElementById("result6").innerHTML=a+" is odd";
+}
+
+function leapyear()
+{
+    var a=parseInt(document.getElementById("n11").value);
+
+    if (a%4==0)
+
+    {
+        document.getElementById("result7").innerHTML=a+" is a leap year"
+    }
+    else
+    {
+        document.getElementById("result7").innerHTML=a+" is not a leap year"
+    }
+}
